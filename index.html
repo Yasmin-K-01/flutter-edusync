@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elite Smart Calendar - One Smart Platform for Students and Faculty" />
+  <title>ELITE SMART CALENDAR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <nav class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">E</span><span>ELITE<span class="brand-light">.CAL</span></span></a>
+    <div class="nav-links">
+      <a href="#features">Features</a><a href="#experience">Experience</a><a href="#hackathons">Hackathons</a>
+    </div>
+    <div class="nav-actions"><button class="login-btn" id="loginBtn">Log in</button><button class="btn btn-primary" id="navStart">Get started <span>→</span></button></div>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+  </nav>
+
+  <main id="home">
+    <section class="hero">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> THE FUTURE OF CAMPUS PLANNING</div>
+        <h1>Your campus.<br /><em>Perfectly</em> in sync.</h1>
+        <p>One intelligent platform that turns busy academic life into your clearest, most productive semester yet.</p>
+        <div class="hero-actions"><button class="btn btn-primary btn-large" id="heroStart">Start organizing free <span>→</span></button><button class="play-btn" id="previewBtn"><i>▶</i> See how it works</button></div>
+        <div class="trusted"><div class="avatar-stack"><span>AM</span><span>RJ</span><span>SK</span><span>+</span></div><p><b>12,000+</b> students already ahead</p></div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="float-card task-float"><div class="float-icon purple">✦</div><div><b>Design Sprint</b><small>Due in 2 hours</small></div><span class="mini-avatar">RK</span></div>
+        <div class="float-card streak-float"><span>🔥</span><div><b>14 day streak!</b><small>Keep the momentum going</small></div></div>
+        <div class="dashboard-preview glass-panel">
+          <div class="preview-sidebar"><span class="preview-logo">E</span><i class="active"></i><i></i><i></i><i></i><i></i><span class="sidebar-bottom">⌁</span></div>
+          <div class="preview-main">
+            <div class="preview-head"><div><small>GOOD MORNING, RYAN</small><h3>Here’s your day <span>✦</span></h3></div><div class="preview-profile"><span class="bell">♧</span><span class="mini-avatar">RK</span></div></div>
+            <div class="preview-stats"><div><small>FOCUS TIME</small><b>4<span>h 20m</span></b><div class="bar"><i style="width:72%"></i></div></div><div><small>TASKS DONE</small><b>08<span>/12</span></b><div class="bar violet"><i style="width:66%"></i></div></div><div class="score"><small>WEEKLY SCORE</small><b>87<span>%</span></b><em>↑ 12%</em></div></div>
+            <div class="preview-content"><section><div class="section-heading"><h4>Today’s schedule</h4><button>View all</button></div><div class="tiny-event cyan"><time>09:30<br/><small>AM</small></time><div><b>Advanced UI Workshop</b><small>Innovation Lab · Room 402</small></div><span>•••</span></div><div class="tiny-event purple-line"><time>12:45<br/><small>PM</small></time><div><b>Team Project Sync</b><small>Online · Google Meet</small></div><span>•••</span></div><div class="tiny-event red"><time>03:00<br/><small>PM</small></time><div><b>Algorithms Assignment</b><small>Deadline today</small></div><span>•••</span></div></section><aside class="mini-calendar"><div><b>October 2024</b><span>‹　›</span></div><div class="weekdays">M T W T F S S</div><div class="date-grid"><span>30</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span class="today">8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span></div><div class="up-next"><small>UP NEXT</small><b>✦ Machine Learning</b><span>Tomorrow · 10:00 AM</span></div></aside></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip"><p>BUILT FOR AMBITIOUS MINDS AT</p><div><b>NEXUS</b><b>UNIVERSITY</b><b>◎celerate</b><b>BRIGHTON</b><b>northstar</b></div></section>
+
+    <section class="features section" id="features">
+      <div class="section-intro reveal"><div class="eyebrow">DESIGNED TO KEEP YOU AHEAD</div><h2>Everything you need.<br /><span>Nothing you don’t.</span></h2><p>From your first lecture to your final submission, ELITE brings every moving part of academic life into one calm, focused space.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card large-card reveal"><div class="feature-icon icon-purple">✦</div><span class="feature-number">01</span><h3>Smart Calendar</h3><p>Your schedule, intelligently organized. Never miss what matters.</p><div class="calendar-art"><div><b>OCTOBER</b><span>‹　›</span></div><section><i>M</i><i>T</i><i>W</i><i>T</i><i>F</i><i>S</i><i>S</i><em>30</em><em>1</em><em>2</em><em>3</em><em>4</em><em>5</em><em>6</em><em>7</em><em class="selected">8</em><em>9</em><em>10</em><em>11</em><em>12</em><em>13</em><em>14</em><em>15</em><em>16</em><em>17</em><em>18</em><em>19</em><em>20</em></section><div class="calendar-event">● UI Workshop <span>09:30</span></div></div></article>
+        <article class="feature-card announcements-card reveal delay-1"><div class="feature-icon icon-cyan">◌</div><span class="feature-number">02</span><h3>Stay in the loop</h3><p>Faculty announcements, delivered when it matters.</p><div class="announcement-art"><div class="ann-head"><span>DP</span><div><b>Prof. David Park</b><small>2 min ago</small></div><em>NEW</em></div><p>Great work on the midterms, everyone! I’ve shared feedback in the portal.</p><div class="reactions">♡ 24　 ◌ 8</div></div></article>
+        <article class="feature-card compact-card reveal"><div class="feature-icon icon-orange">↗</div><span class="feature-number">03</span><h3>Never miss<br />an opportunity.</h3><p>Discover hackathons built for your ambition.</p><div class="prize-art"><span>🏆</span><b>$25,000</b><small>IN PRIZES</small></div></article>
+        <article class="feature-card compact-card reveal delay-1"><div class="feature-icon icon-pink">♡</div><span class="feature-number">04</span><h3>Momentum, measured.</h3><p>Turn your daily effort into unstoppable progress.</p><div class="streak-art"><b>14 <span>days</span></b><div class="fire-row">🔥 🔥 🔥 🔥 🔥 🔥 🔥</div><small>YOUR LONGEST STREAK YET</small></div></article>
+      </div>
+    </section>
+
+    <section class="product-section section" id="experience"><div class="product-copy reveal"><div class="eyebrow">YOUR DAY, ELEVATED</div><h2>More focus.<br /><span>More flow.</span></h2><p>ELITE quietly handles the coordination, so you can spend your energy on doing exceptional work.</p><div class="benefits"><div><i>✓</i><span><b>One view, total clarity</b><small>Every commitment, beautifully organized.</small></span></div><div><i>✓</i><span><b>Built around your rhythm</b><small>Smart reminders that work for you.</small></span></div><div><i>✓</i><span><b>Progress you can feel</b><small>Celebrate every win, big and small.</small></span></div></div><button class="text-link" id="exploreBtn">Explore the platform <span>→</span></button></div><div class="analytics-art glass-panel reveal delay-1"><div class="analytics-head"><div><small>YOUR PRODUCTIVITY</small><h3>October overview</h3></div><button>⋮</button></div><div class="chart"><div class="chart-labels"><span>100%</span><span>75%</span><span>50%</span><span>25%</span><span>0%</span></div><div class="chart-bars"><i style="height:35%"></i><i style="height:53%"></i><i style="height:42%"></i><i class="active-bar" style="height:78%"><b>87%</b></i><i style="height:66%"></i><i style="height:90%"></i><i style="height:57%"></i></div></div><div class="chart-days"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div><div class="analytics-bottom"><div><span class="round-progress">87<small>%</small></span><p>Weekly<br/><b>Productivity</b></p></div><div><span class="up">↗ 12.4%</span><p>vs. last<br/><b>week</b></p></div><div class="focus">✦ <span>Focus session<br/><b>4h 20m this week</b></span></div></div></div></section>
+
+    <section class="dashboard-section section" id="dashboard"><div class="dashboard-heading reveal"><div><div class="eyebrow">BUILT FOR EVERY ROLE</div><h2>One platform.<br /><span>Two perspectives.</span></h2></div><div class="role-tabs"><button class="role-tab active" data-role="student">🎓 For students</button><button class="role-tab" data-role="faculty">◈ For faculty</button></div></div><div class="role-description reveal"><b id="roleTitle">Your entire academic world, in one place.</b><p id="roleDesc">Organize your schedule, stay ahead of deadlines, and make every day count.</p></div><div class="app-shell reveal"><aside class="app-sidebar"><div class="app-logo">E</div><button class="app-nav active" data-view="overview"><span>⊞</span><em>Overview</em></button><button class="app-nav" data-view="calendar"><span>□</span><em>Calendar</em></button><button class="app-nav" data-view="schedule"><span>☷</span><em>My Schedule</em></button><button class="app-nav" data-view="assignments"><span>✓</span><em>Assignments</em></button><button class="app-nav" data-view="hackathons"><span>♕</span><em>Hackathons</em></button><button class="app-nav" data-view="notifications"><span>♧</span><em>Notifications</em></button><button class="app-nav" data-view="reminders"><span>☆</span><em>Reminders</em></button><span class="app-spacer"></span><button class="app-nav" data-view="profile"><span>◉</span><em>Profile</em></button></aside><section class="app-view"><div class="app-top"><div><small id="appGreeting">TUESDAY, OCTOBER 8</small><h3 id="appTitle">Good morning, Ryan <span>✦</span></h3></div><div class="app-controls"><button class="icon-btn">⌕</button><button class="icon-btn notify">♧</button><span class="user-dot">RK</span></div></div><div id="appContent"></div></section></div></section>
+
+    <section class="hackathon-section section" id="hackathons"><div class="hack-head reveal"><div><div class="eyebrow">MAKE YOUR MARK</div><h2>Where ambition<br /><span>meets opportunity.</span></h2></div><p>Find your next challenge. Build something remarkable.</p><button class="text-link" id="viewAllHackathons">View all hackathons <span>→</span></button></div><div class="hack-grid"><article class="hack-card featured-hack reveal"><div class="hack-card-top"><span class="hack-logo">H</span><b>HACK<span>FUSION</span></b><span class="days">12 DAYS LEFT</span></div><div class="hack-content"><small>ONLINE · OCT 20–22</small><h3>HackFusion ’24</h3><p>Build the future of education. 48 hours, endless possibilities.</p><div><span>🏆 <b>$25,000</b> in prizes</span><button class="register-btn">Register now <i>→</i></button></div></div><div class="hack-orb"></div></article><article class="hack-card regular-hack reveal delay-1"><div class="regular-visual"><span>⟨/⟩</span><b>CODE<br/>FORWARD</b><em>8 DAYS LEFT</em></div><div class="regular-info"><small>HYBRID · OCT 16–18</small><h3>CodeForward</h3><p>Real code. Real impact.</p><div><span>🏆 <b>$15,000</b></span><button class="circle-arrow">→</button></div></div></article><article class="hack-card regular-hack reveal delay-2"><div class="regular-visual green-vis"><span>◈</span><b>GREEN<br/>SPARK</b><em>21 DAYS LEFT</em></div><div class="regular-info"><small>ON CAMPUS · OCT 29–31</small><h3>GreenSpark</h3><p>Innovate for a better planet.</p><div><span>🏆 <b>$10,000</b></span><button class="circle-arrow">→</button></div></div></article></div></section>
+
+    <section class="cta-section"><div class="cta-glow"></div><div class="reveal"><div class="eyebrow">YOUR BEST SEMESTER STARTS HERE</div><h2>Ready to move<br /><em>different?</em></h2><p>Join thousands of students and faculty who are already making more of every day.</p><button class="btn btn-primary btn-large" id="ctaStart">Get started — it’s free <span>→</span></button><small>No credit card required · Set up in 60 seconds</small></div></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">E</span><span>ELITE<span class="brand-light">.CAL</span></span></a><p>© 2024 ELITE SMART CALENDAR. MADE FOR THE AMBITIOUS.</p><div><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></div></footer>
+  <div class="modal-overlay" id="modal"><div class="modal"><button class="modal-close">×</button><div class="modal-icon">✦</div><h2 id="modalTitle">Welcome to ELITE</h2><p id="modalText">Your smarter academic journey starts here.</p><button class="btn btn-primary" id="modalAction">Let’s go <span>→</span></button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
