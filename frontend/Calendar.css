@@ -1,0 +1,155 @@
+/* Page */
+
+.calendar-page {
+    min-height: 100vh;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+/* Top Bar */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.top-bar h1 {
+    color: #007bff;
+}
+
+/* Calendar Section */
+
+.calendar-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.calendar-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Calendar Grid */
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+}
+
+.calendar-grid div {
+    background: #eef3f9;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.calendar-grid div:hover {
+    background: #d6e9ff;
+    transform: scale(1.05);
+}
+
+/* Days with Tasks */
+
+.task-day {
+    background: #007bff !important;
+    color: white;
+}
+
+/* Task Section */
+
+.task-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.task-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Task Cards */
+
+.task-card {
+    border-left: 6px solid #007bff;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.task-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.task-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.task-card p {
+    margin: 6px 0;
+}
+
+/* Status Colors */
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+.pending {
+    color: red;
+    font-weight: bold;
+}
+
+.upcoming {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .top-bar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .calendar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .calendar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .calendar-grid div {
+        padding: 15px;
+    }
+
+    .task-card {
+        padding: 12px;
+    }
+
+}
